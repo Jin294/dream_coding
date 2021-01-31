@@ -182,7 +182,7 @@ for (let i = 0; i < 10; i++) {
 
 { //mine
 	const a = 0;
-	while (a =< 10) {
+	while (a < 11) {
 		i++;
 		if (a == even) {
 			console.log(`while: ${a}`);
