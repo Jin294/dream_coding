@@ -66,9 +66,9 @@ console.log(`and: ${value1 && value2 && check()}`);
 
 // often used to compress long if-statement
 // nullableObject && nullableObject.something
-if (nullableObject != null) {
-	nullableObject.something;
-}
+// if (nullableObject != null) {
+// 	nullableObject.something;
+// }
 
 function check(){
 	for(let i = 0; i < 10; i++) {
@@ -180,16 +180,6 @@ for (let i = 0; i < 10; i++) {
 // break, continue
 // Q1. iterate from 0 to 10 and print only even numbers(use continue)
 
-{ //mine
-	const a = 0;
-	while (a < 11) {
-		i++;
-		if (a == even) {
-			console.log(`while: ${a}`);
-		}	
-	}
-}
-
 //Answer
 	for (let a = 0; a < 11; a++) {
 		if (a % 2 === 0) {
@@ -204,8 +194,6 @@ for (let i = 0; i < 10; i++) {
 	if (b < 8) {
 		console.log(`while: ${b}`);
 		i++;
-	} else {
-		break;
 	}
 }
 //Answer
